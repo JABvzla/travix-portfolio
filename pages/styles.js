@@ -12,4 +12,5 @@ export const StyledDescription = styled.p`
   font-size: 1.4rem;
   font-weight: 300;
   text-align: center;
+  margin: 25px 0px;
 `

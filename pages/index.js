@@ -3,6 +3,7 @@ import React from "react"
 import CardProfile from "../components/card-profile"
 import Button from "../components/button"
 import { StyledMain, StyledDescription } from "./styles"
+import Skills from "../components/skills"
 
 export default function Home() {
   return (
@@ -14,12 +15,18 @@ export default function Home() {
       </Head>
       <StyledMain>
         <CardProfile />
-        <Button as="a" href="/file.pdf" target="_blank" >DOWNLOAD CV</Button>
+
+        <Button as="a" href="/file.pdf" target="_blank">
+          DOWNLOAD CV
+        </Button>
+
         <StyledDescription>
           Hello! I’m Robert Smith. Senior Web Developer specializing in front end development. Experienced with all
           stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages
           including and C. Stng background in project management and customer relations.
         </StyledDescription>
+
+        <Skills />
       </StyledMain>
     </React.Fragment>
   )
