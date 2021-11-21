@@ -7,3 +7,9 @@ export const StyledMain = styled.main`
   justify-content: center;
   padding: 25px;
 `
+
+export const StyledDescription = styled.p`
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+`
